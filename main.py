@@ -1,4 +1,5 @@
 from diaries.DiarySample import DiarySample
+from diaries.NagaoDiary import NagaoDiary
 from diaries.TadaSample import DiaryTada
 from diaries.SakaiDiary import SakaiDiary
 
@@ -6,7 +7,8 @@ from diaries.SakaiDiary import SakaiDiary
 diaries = [
     DiarySample(), 
     SakaiDiary(),
-   DiaryTada()
+    DiaryTada(),
+    NagaoDiary()
 ] 
 
 for d in diaries:
